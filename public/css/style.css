@@ -3,6 +3,11 @@ html {
     min-height: 100%;
 }
 
+#servicesMain {
+    color: red;
+    /*color: #0E5DA4;*/
+    font-weight: bolder;
+}
 
 #facebookMainTop{
     /*height: 100px;*/
@@ -46,6 +51,7 @@ html {
     width: 96%;
     margin-right: 2%;
 }
+
 #topLogo{
   
     margin-left: 5%;
@@ -256,6 +262,10 @@ footer {
         margin-top: -3%;
     }
 
+
+#warrantyCard {
+    margin-top: 20%;
+}
 /*end larger screens */
 
 
@@ -460,8 +470,8 @@ footer {
     }
 
     #menuButton {
-        margin-top: 1%;
-        margin-left: 2%;
+        margin-top: -20%;
+        margin-left: -60%;
         margin-right: 5%;
         color: white;
     }
@@ -519,7 +529,7 @@ footer {
 }
 
 #topLogo{
-  
+     margin-top: -3%;
     margin-left: 10%;
 }
 
@@ -632,5 +642,9 @@ footer {
 
 #checkTimes {
     margin-left: 0%;
+}
+
+#warrantyCard {
+    margin-top: 0%;
 }
 }

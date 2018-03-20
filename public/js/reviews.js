@@ -15,10 +15,10 @@ window.onload = function() {
             data.forEach(function(result) {
 
                 var div1 = $("<div>").append(
-                     "<div class='card blue-grey'><div class='card-content white-text'><span class='card-title'>" + result.author + "<br>" + result.date + "</span>" +
+                     "<div class='card grey darken-4'><div class='card-content white-text'><span class='card-title'>" + result.author + "<br>" + result.date + "</span>" +
                       "<p>" + result.summary + "</p>" + "<br>" +
                      
-                       "<a class='white-text right' href='https://www.yellowpages.com/monroe-nc/mip/mcneills-body-shop-459617928'>View Source</a>" + 
+                       "<a class='red-text right' href='https://www.yellowpages.com/monroe-nc/mip/mcneills-body-shop-459617928'>View Source</a>" + 
                        "</div>" +
                       
                       "</div>" +
