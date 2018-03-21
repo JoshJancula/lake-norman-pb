@@ -11,8 +11,8 @@ html {
 
 #facebookMainTop{
     /*height: 100px;*/
-    width: 83%;
-    margin-left: 5%;
+    width: 84%;
+    margin-left: 8%;
     /*margin-top: -2%;*/
 }
 
@@ -62,7 +62,7 @@ html {
 }
 
 .popout{
-    margin-left: -4%;
+    margin-left: 0%;
     /*margin-top: -10%;*/
     width: 100%;
 }
@@ -104,11 +104,11 @@ html {
 
 #shopPhoto{
     /*height: 250px;*/
-    width: 82%;
+    width: 84%;
     height: 200px;
-   margin-left: 5%;
+   margin-left: 8%;
    /*margin-right: 5%;*/
-   margin-top: -6%;
+   margin-top: -2%;
    /*float: right;*/
 }
 
@@ -279,7 +279,11 @@ footer {
 
 
 /*  this is for tablets */
-@media screen and (max-width: 980px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-width: 960px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
+
+#warrantyCard {
+    margin-top: 0%;
+}
 
  .aboutText{
         margin-right: 0%;
@@ -308,7 +312,7 @@ footer {
 }
 .carousel {
     /*margin-top: 2%;*/
-    margin-left: -40%;
+    margin-left: -10%;
     height: 300px;
     width: 900px;
     padding: 5%;
@@ -320,7 +324,7 @@ footer {
 
     #menuButton {
         margin-top: 1%;
-        margin-left: 2%;
+        margin-left: 0%;
         margin-right: 5%;
         color: white;
     }
@@ -378,7 +382,7 @@ footer {
 }
 
 #topLogo{
-  
+    text-align: center;
     margin-left: 10%;
 }
 
@@ -401,7 +405,7 @@ footer {
    margin-left: 0%;
     margin-right: 0%;
    /*margin-right: 5%;*/
-   margin-top: 4%;
+   margin-top: -2%;
    margin-bottom: 2%;
    /*float: right;*/
 }
@@ -423,7 +427,7 @@ footer {
 }
 
 #form{
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 #phoneLink {
@@ -462,7 +466,7 @@ footer {
 @media screen and (min-device-width: 250px)  and (max-device-width: 666px)   and (-webkit-min-device-pixel-ratio: 2) {
 
     #scrollHere {
-        margin-top: 0%;
+        margin-top: -8%;
         margin-left: 0%;
         margin-right: 0;
 
@@ -509,7 +513,7 @@ footer {
         width: 360px;
         height: 300px;
         padding: 1%;
-        margin-bottom: -30%;
+        margin-bottom: 0%;
     }
     
     .item {
@@ -550,12 +554,13 @@ footer {
 
 #shopPhoto{
     height: 150px;
-    width: 250px;
-   margin-left: 0%;
-   /*margin-right: 5%;*/
+    width: 81%;
+
+   margin-left: 10%;
+   margin-right: 10%;
    margin-top: 5%;
    /*float: right;*/
-   margin-bottom: 8%;
+   margin-bottom: 10%;
 }
 
 .serviceImage1 {
