@@ -276,6 +276,185 @@
 
         </section>
 
+        <section id="section3">
+            <div class="row">
+                <div class="col l4 s12 center">
+                    <!--put map here-->
+                    <iframe id="mapPic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.574384917972!2d-80.8744086847471!3d35.46532998024517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a96be7ae83d7%3A0x3885404ff9888473!2sLake+Norman+Paint+%26+Body!5e0!3m2!1sen!2sus!4v1521578115183"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+                    <div class="row center">
+                        <div class="input-field">
+                            <a href="#calendarModal" id="checkTimes" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Check Available Appointments</span></a>
+                        </div>
+                    </div>
+
+                    <div class="row center" id="phoneLink">
+                        <div class="col l2"></div>
+                        <div class="col l2">
+                            <i class="material-icons call white-text  medium">call</i>
+                        </div>
+                        <div class="col l8">
+                            <h5 class="white-text left">704-896-7756</h5>
+                        </div>
+
+                    </div>
+                    <!--<a href="https://www.facebook.com/McneillsBodyShop/">-->
+                    <!--    <img class="hide-on-med-and-down" id="facebookContact" src="/images/facebook4.jpg">-->
+                    <!--    </a>-->
+
+                </div>
+
+                <div class="col l8 m12 s12" id="form">
+                    <div class="container">
+
+                        <form class="col l12 m12 s12">
+                            <div class="row">
+                                <div class="input-field col l12 s12">
+                                    <input id="name" type="text" class="white-text">
+                                    <label for="email">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12 s12">
+                                    <input id="phone" type="text" class="white-text">
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12 s12">
+                                    <input id="email" type="email" class="white-text">
+                                    <label for="email">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12 s12">
+                                    <input id="message" type="text" class="white-text">
+                                    <label for="text">Message</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3 s12">
+                                    <div class="row white-text">
+                                        <div class="col l1" id="digit1"></div>
+                                        <div class="col l1">+</div>
+                                        <div class="col l1" id="digit2"></div>
+                                        <div class="col l9"></div>
+                                    </div>
+                                </div>
+
+                                <div class="l9 s0"></div><br>
+                                <div class="input-field col l12 s12">
+                                    <input id="answer" type="text" class="white-text">
+                                    <label for="text">What is the solution to the equation above?</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field">
+                                    <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text center">Submit</span></a>
+                                </div>
+                            </div>
+
+                        </form>
+
+
+                        <!-- thankYou modal -->
+
+                        <div id="thankYou" class="modal">
+                            <div class="modal-content">
+                                <h4>Thank You!</h4>
+                                <p>We will get back with you as soon as possible!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                            </div>
+                        </div>
+
+                        </form>
+
+                    </div>
+                    <!--end of modal-->
+
+                    <!-- pleaseComplete -->
+
+                    <div id="pleaseComplete" class="modal">
+                        <div class="modal-content">
+                            <div id="wrong"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                        </div>
+                    </div>
+
+                    </form>
+
+                </div>
+                <!--end of modal-->
+
+                <!-- calendar modal -->
+
+                <div id="calendarModal" class="modal blue-grey darken-1">
+                    <div class="modal-content">
+                        <iframe id="calendarPic" src="https://calendar.google.com/calendar/embed?src=joshjanculawebpage%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe><br>
+                        <div class="row">
+                            <h5 class="white-text">See an available time you'd like? Schedule it here.</h5>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="time" type="text" class="white-text">
+                                    <label for="time">Time</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col l12">
+                                    <input id="date" type="text" class="white-text">
+                                    <label for="date">Date</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field">
+                                    <a href="#scheduleApp" id="submitTime" class="btn waves-effect waves-light modal-trigger modal-action modal-close red darken-4 center"><span class="white-text">Submit</span></a>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Nope</a>
+                    </div>
+                </div>
+
+                </form>
+
+            </div>
+            <!--end of modal-->
+
+            <!-- thankYou modal -->
+
+            <div id="scheduleApp" class="modal">
+                <div class="modal-content">
+                    <h4>Avewsome!</h4>
+                    <p>Please complete the rest of the contact form to schedule your appointment.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#form" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                </div>
+            </div>
+
+            </form>
+
+            </div>
+            <!--end of modal-->
+
+
+            </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
         <!--<div class="row">-->
         <!----------------  Column ------------------------------->
         <!--    <div class="col l4 hide-on-med-and-down">-->

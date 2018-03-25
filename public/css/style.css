@@ -676,6 +676,7 @@ footer {
     width: 60px;
     background-color: red;
     border-radius: 50%;
+    padding: 10px;
 
 }
 
@@ -684,5 +685,13 @@ footer {
 }
 
 #redCar {
-    width: 100%;
+    width: 95%;
+    margin-top: 3%;
+}
+
+#section3 {
+
+    background-image: url("../images/backgroundContact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
