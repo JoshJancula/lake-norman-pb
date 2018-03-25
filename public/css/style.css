@@ -1,4 +1,5 @@
 /* larger screens */
+
 html {
     min-height: 100%;
 }
@@ -9,14 +10,14 @@ html {
     font-weight: bolder;
 }
 
-#facebookMainTop{
+#facebookMainTop {
     /*height: 100px;*/
     width: 84%;
     margin-left: 8%;
     /*margin-top: -2%;*/
 }
 
-#facebookContact{
+#facebookContact {
     height: 100px;
     width: 250px;
     margin-left: 10%;
@@ -29,17 +30,18 @@ html {
 }
 
 
-.card, .card-action {
-      border-radius: 20px;
+.card,
+.card-action {
+    border-radius: 20px;
 }
 
-.yelp-review{
+.yelp-review {
     margin-top: 5%;
     margin-left: 25%;
-    
+
 }
 
-.tabImg{
+.tabImg {
     max-height: 350px;
     max-width: 350px;
     height: 100%;
@@ -48,20 +50,20 @@ html {
 
 .servicesCard {
     margin-left: 2%;
-    width: 96%;
+    width: auto;
     margin-right: 2%;
 }
 
-#topLogo{
-  
+#topLogo {
+
     margin-left: 5%;
     margin-top: 0%;
-     font-family: 'Romanesco', cursive;
+    font-family: 'Romanesco', cursive;
     color: grey;
     font-size: 50px;
 }
 
-.popout{
+.popout {
     margin-left: 0%;
     /*margin-top: -10%;*/
     width: 100%;
@@ -70,12 +72,13 @@ html {
 #aboutCar {
     height: 320px;
     width: 320px;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
-#needed{
+#needed {
     margin-top: 30%;
 }
+
 .item {
     /*height: 200px;*/
     /*width: 200px;*/
@@ -86,10 +89,10 @@ html {
 .serviceImage {
     height: 250px;
     width: 250px;
-   
+
 }
 
-.bottomLink{
+.bottomLink {
     height: 50px;
     width: 50px;
     margin-left: 5%;
@@ -102,14 +105,14 @@ html {
 }
 
 
-#shopPhoto{
+#shopPhoto {
     /*height: 250px;*/
     width: 84%;
     height: 200px;
-   margin-left: 8%;
-   /*margin-right: 5%;*/
-   margin-top: -2%;
-   /*float: right;*/
+    margin-left: 8%;
+    /*margin-right: 5%;*/
+    margin-top: -2%;
+    /*float: right;*/
 }
 
 
@@ -117,7 +120,7 @@ html {
     margin-right: 3%;
 }
 
-#imagesRow3{
+#imagesRow3 {
     margin-left: 3%;
 }
 
@@ -137,14 +140,14 @@ html {
     /*margin-left: -20%;*/
 }
 
-#tabs{
-   margin-left: -5%;
-   margin-right: 5%;
-   margin-top: 5%;
+#tabs {
+    margin-left: -5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 
-#mapPic{
+#mapPic {
     margin-top: 10%;
     margin-left: 10%;
     height: 350px;
@@ -180,9 +183,9 @@ html {
     padding: 5%;
 }
 
- .carousel-item{
-       margin-left: -15%;
-   }
+.carousel-item {
+    margin-left: -15%;
+}
 
 body {
     display: flex;
@@ -192,7 +195,7 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-size: auto;
-     font-family: Bungee-inline;
+    font-family: Bungee-inline;
     /*background: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.1)), url(http://clipart-library.com/images/6Ty5GE6ac.jpg);*/
 }
 
@@ -207,8 +210,6 @@ main {
     border-radius: 5px;
     opacity: .9;
     /*margin-left: 5%;*/
-
-
 }
 
 
@@ -246,81 +247,73 @@ footer {
 
 
 .tabImg {
-        /*height: 300px;*/
-        width: 100%;
-    }
+    /*height: 300px;*/
+    width: 100%;
+}
 
 
-   #mission{
-        margin-top: 8%;
-    }
-    
-    .aboutText{
-        margin-right: 0%;
-        margin-left: -5%;
-        font-size: 17px;
-        margin-top: -3%;
-    }
+#mission {
+    margin-top: 8%;
+}
+
+.aboutText {
+    margin-right: 0%;
+    margin-left: -5%;
+    font-size: 17px;
+    margin-top: -3%;
+}
 
 
 #warrantyCard {
     margin-top: 20%;
 }
+
 /*end larger screens */
 
-
-
-
-
-
-
-
-
-
-
 /*  this is for tablets */
-@media screen and (max-width: 960px) and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2){
 
-#warrantyCard {
-    margin-top: 0%;
-}
+@media screen and (max-width: 960px) and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2) {
 
- .aboutText{
+    #warrantyCard {
+        margin-top: 0%;
+    }
+
+    .aboutText {
         margin-right: 0%;
     }
-    
-#teamImage{
-    margin-top: 0%;
-    margin-left: 0%;
-    height: 400px;
-    width: 400px;
-}
 
-#aboutCar{
-    width: 400px;
-    height: 400px;
-    margin-left: 0%;
-}
+    #teamImage {
+        margin-top: 0%;
+        margin-left: 0%;
+        height: 400px;
+        width: 400px;
+    }
+
+    #aboutCar {
+        width: 400px;
+        height: 400px;
+        margin-left: 0%;
+    }
     #scrollHere {
         margin-top: 0%;
         margin-left: 7%;
         margin-right: 0;
     }
-    
-    #needed{
-    margin-top: 10%;
-}
-.carousel {
-    /*margin-top: 2%;*/
-    margin-left: -10%;
-    height: 300px;
-    width: 100%;
-    padding: 5%;
-}
 
- .carousel-item{
-       margin-left: -15%;
-   }
+    #needed {
+        margin-top: 10%;
+    }
+    .carousel {
+        /*margin-top: 2%;*/
+        margin-left: -10%;
+        height: 300px;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .carousel-item {
+        margin-left: -15%;
+    }
 
     #menuButton {
         margin-top: 1%;
@@ -343,127 +336,115 @@ footer {
 
     #searchCard {
         margin-left: 25%;
-         margin-right: 25%;
+        margin-right: 25%;
         /*margin-right: 10%;*/
         width: 0px;
         height: 0px;
     }
 
 
-.serviceImage {
-    height: 200px;
-    width: 200px;
-    margin: 1%;
-   
-}
+    .serviceImage {
+        height: 200px;
+        width: 200px;
+        margin: 1%;
 
-#cardArea{
-    width: 200px;
-    margin-top:0;
-    margin-left: 0px;
-    /*margin-left: -5%;*/
-}
+    }
 
-  
+    #cardArea {
+        width: 200px;
+        margin-top: 0;
+        margin-left: 0px;
+        /*margin-left: -5%;*/
+    }
+
+
     .item {
         margin-left: 15%;
     }
-    
+
     .tabImg {
         height: 300px;
         width: 400px;
     }
-    
-#logoTop {
-   
-    font-style: italic;
-    margin-left: 5%;
-    text-align: center;
-}
 
-#topLogo{
-    text-align: center;
-    margin-left: 10%;
-}
+    #logoTop {
 
-#mapPic{
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 300px;
-    width: 300px;
-}
+        font-style: italic;
+        margin-left: 5%;
+        text-align: center;
+    }
 
-.collapsible{
-    /*margin-top*/
-    margin-left: 0%;
-}
+    #topLogo {
+        text-align: center;
+        margin-left: 10%;
+    }
 
-#shopPhoto{
-    height: 280px;
-    width: 500px;
-   margin-left: 0%;
-    margin-right: 0%;
-   /*margin-right: 5%;*/
-   margin-top: -2%;
-   margin-bottom: 2%;
-   /*float: right;*/
-}
+    #mapPic {
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 300px;
+        width: 300px;
+    }
 
-.serviceImage1 {
-    height: 250px;
-    width: 450px;
-}
+    .collapsible {
+        /*margin-top*/
+        margin-left: 0%;
+    }
 
-.bottomLink:first-child{
-    margin-left: 0%;
-}
+    #shopPhoto {
+        height: 280px;
+        width: 500px;
+        margin-left: 0%;
+        margin-right: 0%;
+        /*margin-right: 5%;*/
+        margin-top: -2%;
+        margin-bottom: 2%;
+        /*float: right;*/
+    }
 
-#facebookContact{
-    height: 100px;
-    width: 250px;
-    margin-left: 0%;
-    margin-top: 0%;
-}
+    .serviceImage1 {
+        height: 250px;
+        width: 450px;
+    }
 
-#form{
-    margin-left: 0%;
-}
+    .bottomLink:first-child {
+        margin-left: 0%;
+    }
 
-#phoneLink {
-    margin-left: 30%;
-}
+    #facebookContact {
+        height: 100px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
 
-  #mission{
+    #form {
+        margin-left: 0%;
+    }
+
+    #phoneLink {
+        margin-left: 30%;
+    }
+
+    #mission {
         margin-top: 3%;
         /*margin-left: 5%;*/
     }
-    
- #checkTimes {
-    margin-left: 0%;
-}
- 
-    
+
+    #checkTimes {
+        margin-left: 0%;
+    }
+
+
 }
 
 
 /*  end tablets  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  this is for cell phones */
-@media screen and (min-device-width: 250px)  and (max-device-width: 600px)   and (-webkit-min-device-pixel-ratio: 2) {
+
+@media screen and (min-device-width: 250px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
 
     #scrollHere {
         margin-top: -8%;
@@ -497,16 +478,16 @@ footer {
         /*margin-right: 10%;*/
         /*width: 200px;*/
         /*height: 0px;*/
-         opacity: .5;
+        opacity: .5;
     }
 
 
-#cardArea{
-    width: 200px;
-    margin-top:0;
-    margin-left: 0px;
-    /*margin-left: -5%;*/
-}
+    #cardArea {
+        width: 200px;
+        margin-top: 0;
+        margin-left: 0px;
+        /*margin-left: -5%;*/
+    }
 
     .carousel {
         margin-left: 0%;
@@ -515,141 +496,193 @@ footer {
         padding: 1%;
         margin-bottom: 0%;
     }
-    
+
     .item {
         margin-left: 15%;
     }
-    
+
     .tabImg {
         height: 250px;
         width: 250px;
     }
-    
-#logoTop {
-   
-    font-style: italic;
+
+    #logoTop {
+
+        font-style: italic;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    #topLogo {
+        margin-top: -3%;
+        margin-left: 10%;
+    }
+
+    #mapPic {
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .collapsible {
+        /*margin-top*/
+        margin-left: 0%;
+        margin: 1%;
+        margin-top: -12%;
+    }
+
+    #shopPhoto {
+        height: 150px;
+        width: 81%;
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        /*float: right;*/
+        margin-bottom: 10%;
+    }
+
+    .serviceImage1 {
+        height: 250px;
+        width: 300px;
+    }
+
+    .bottomLink {
+        margin-left: -2%;
+    }
+
+    #submitButton {
+        margin-left: 10%;
+    }
+    /*.footLike{*/
+    /*    margin-left:;*/
+    /*}*/
+    .card,
+    #teamImage,
+    #aboutCar,
+    .aboutText {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #teamImage {
+        margin-top: 0%;
+    }
+
+    .yelp-review {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 250px;
+        width: 200px;
+
+    }
+
+
+    #facebookMain {
+        height: 100px;
+        width: 250px;
+        margin-top: -10%;
+        /*margin-left: 12%;*/
+        /*margin-right: 12%;*/
+    }
+
+    #hiddenFender {
+        margin-top: -8%;
+    }
+
+    #tabs {
+        margin-top: -6%;
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+
+
+    #mapPic {
+        margin-top: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 250px;
+        width: 250px;
+    }
+
+    #mapPicMain {
+        height: 200px;
+        width: 200px;
+    }
+
+    #phoneLink {
+        margin-left: 10%;
+    }
+
+    #calendarPic {
+        height: 320px;
+        width: 320px;
+    }
+
+    #submitButton {
+        margin-left: 0%;
+    }
+
+    #checkTimes {
+        margin-left: 0%;
+    }
+
+    #warrantyCard {
+        margin-top: 0%;
+    }
+}
+
+/*JOES CSS*/
+
+#overView {
     margin-left: 5%;
-    text-align: center;
 }
 
-#topLogo{
-     margin-top: -3%;
-    margin-left: 10%;
+.subSection {
+    width: 400px;
 }
 
-#mapPic{
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 300px;
-    width: 300px;
+.subTitle {
+    margin-bottom: 0;
+    margin-top: 1%;
+    color: white;
 }
 
-.collapsible{
-    /*margin-top*/
-    margin-left: 0%;
-    margin: 1%;
-    margin-top: -12%;
+.subParagraph {
+    width: 85%;
+    margin-left: 17%;
+    margin-top: -1%;
+    color: white;
 }
 
-#shopPhoto{
-    height: 150px;
-    width: 81%;
+#section2 {
+    padding-top: 50px;
+    padding-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/sectionOne.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
-   margin-left: 10%;
-   margin-right: 10%;
-   margin-top: 5%;
-   /*float: right;*/
-   margin-bottom: 10%;
 }
 
-.serviceImage1 {
-    height: 250px;
-    width: 300px;
+.icon {
+
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+
 }
 
-.bottomLink{
-    margin-left: -2%;
+#ourMission {
+    float: left;
 }
 
-#submitButton{
-    margin-left: 10%;
-}
-/*.footLike{*/
-/*    margin-left:;*/
-/*}*/
-
-
-.card, #teamImage, #aboutCar, .aboutText{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-#teamImage{
-    margin-top: 0%;
-}
-
-.yelp-review{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 250px;
-    width: 200px;
-    
-}
-
-
-#facebookMain{
-    height: 100px;
-    width: 250px;
-    margin-top: -10%;
-    /*margin-left: 12%;*/
-    /*margin-right: 12%;*/
-}
-
-#hiddenFender{
-    margin-top: -8%;
-}
-
-#tabs{
-    margin-top: -6%;
-   margin-left: 0%;
-   margin-right: 0%;
-   
-}
-
-
-#mapPic{
-    margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
-    height: 250px;
-    width: 250px;
-}
-
-#mapPicMain{
-    height: 200px;
-    width: 200px;
-}
-
-#phoneLink {
-    margin-left: 10%;
-}
-
-#calendarPic{
-    height: 320px;
-    width: 320px;
-}
-
-#submitButton {
-    margin-left: 0%;
-}
-
-#checkTimes {
-    margin-left: 0%;
-}
-
-#warrantyCard {
-    margin-top: 0%;
-}
+#redCar {
+    width: 100%;
 }
