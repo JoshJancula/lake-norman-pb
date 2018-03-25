@@ -638,6 +638,12 @@ footer {
 
 /*JOES CSS*/
 
+#section1 {
+    background-image: url("../images/backgroundTop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #overView {
     margin-left: 5%;
 }
