@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/styleMain.css" type="text/css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 
@@ -16,7 +16,7 @@
     <main>
         <div class="section scrollspy" id="pageTop"></div>
         <!--header-->
-        <div class="row">
+        <div class="row" id="header">
             <a href="#" data-activates="slide-out" class="right button-collapse hide-on-large-only"><i id="menuButton" class="medium material-icons red-text">menu</i></a>
             <div class="col l7 s10 white-text">
                 <!--<img class="brand-logo" id="topLogo" src="images/logo.png"></a><br>-->
@@ -24,21 +24,21 @@
             </div>
 
             <div class="col l5">
-                <nav class="black">
-                    <div class="nav-wrapper">
+                
+                    <div class="nav-wrapper hide-on-med-and-down">
 
                         <!--<a href="#" data-activates="slide-out" class="button-collapse show-on-med-and-down"><i class="material-icons">menu</i></a>-->
 
-                        <ul id="nav-mobile" class="left hide-on-med-and-down">
-                            <li><a href="/index" class="activeNav" id="index">Home</a></li>
-                            <li><a href="/about" id="about">About Us</a></li>
-                            <li><a href="/services" id="services">Services</a></li>
-                            <li><a href="/contact" id="contact">Contact Us</a></li>
-                            <li><a href="/reviews" id="reviews">Reviews</a></li>
+                        <div class="row" id="nav-mobile" class="left hide-on-med-and-down">
+                            <div class="col l2"><a href="/index" class="activeNav" id="index">Home</a></div>
+                            <div class="col l2"><a href="/about" class="white-text" id="about">About Us</a></div>
+                            <div class="col l2"><a href="/services" class="white-text" id="services">Services</a></div>
+                            <div class="col l3"><a href="/contact" class="white-text" id="contact">Contact Us</a></div>
+                            <div class="col l2"><a href="/reviews" class="white-text" id="reviews">Reviews</a></div>
 
-                        </ul>
+                        </div>
                     </div>
-                </nav>
+               
             </div>
 
         </div>
@@ -81,7 +81,8 @@
                                 <div class="collapsible-body white black-text center">
                                     <p>18425 Statesville Rd, Cornelius, NC 28031
                                     </p>
-                                   <iframe id="mapPicMain" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.574384917972!2d-80.8744086847471!3d35.46532998024517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a96be7ae83d7%3A0x3885404ff9888473!2sLake+Norman+Paint+%26+Body!5e0!3m2!1sen!2sus!4v1521578115183" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe id="mapPicMain" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.574384917972!2d-80.8744086847471!3d35.46532998024517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a96be7ae83d7%3A0x3885404ff9888473!2sLake+Norman+Paint+%26+Body!5e0!3m2!1sen!2sus!4v1521578115183"
+                                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                                 </div>
                             </li>
@@ -114,55 +115,56 @@
 
         <!--end popout-->
 
-       
+
         <!--end mobile-->
 
         <div class="row">
             <!----------------  Column ------------------------------->
             <div class="col l4 hide-on-med-and-down">
-                  
-                    <div class="row">
-                        <div class="col l12">
-                            <ul class="collapsible popout" data-collapsible="accordion">
+
+                <div class="row">
+                    <div class="col l12">
+                        <ul class="collapsible popout" data-collapsible="accordion">
 
 
-                                <li>
-                                    <div class="collapsible-header"><i class="material-icons">add_location</i>Location</div>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">add_location</i>Location</div>
 
-                                    <div class="collapsible-body white black-text center">
-                                        <p>18425 Statesville Rd, Cornelius, NC 28031
+                                <div class="collapsible-body white black-text center">
+                                    <p>18425 Statesville Rd, Cornelius, NC 28031
 
-                                        </p>
-                                        <iframe id="mapPicMain2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.574384917972!2d-80.8744086847471!3d35.46532998024517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a96be7ae83d7%3A0x3885404ff9888473!2sLake+Norman+Paint+%26+Body!5e0!3m2!1sen!2sus!4v1521578115183" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </p>
+                                    <iframe id="mapPicMain2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.574384917972!2d-80.8744086847471!3d35.46532998024517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a96be7ae83d7%3A0x3885404ff9888473!2sLake+Norman+Paint+%26+Body!5e0!3m2!1sen!2sus!4v1521578115183"
+                                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="collapsible-header"><i class="material-icons">call</i>Call Us</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">call</i>Call Us</div>
 
-                                    <div class="collapsible-body white black-text center">
-                                        <p>704-896-7756</p>
+                                <div class="collapsible-body white black-text center">
+                                    <p>704-896-7756</p>
 
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="collapsible-header white"><i class="material-icons">timer</i>Hours</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header white"><i class="material-icons">timer</i>Hours</div>
 
-                                    <div class="collapsible-body white black-text center">
-                                        <p>Monday - Friday: <br> 9 am - 5 pm<br> Saturday:
+                                <div class="collapsible-body white black-text center">
+                                    <p>Monday - Friday: <br> 9 am - 5 pm<br> Saturday:
 
-                                            <br> Call for an appointment<br> Sunday:
-                                            <br> Closed
+                                        <br> Call for an appointment<br> Sunday:
+                                        <br> Closed
 
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-               
+
+                </div>
+
 
                 <!--</div>-->
 
@@ -172,120 +174,278 @@
                         <img id="shopPhoto" src="data:image/jpeg;base64,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">
                     </div>
                 </div>
-                <div class="row">
+                <!--<div class="row">-->
 
-                    <img class="hide-on-small-only" id="facebookMainTop" src="https://s3-media2.fl.yelpcdn.com/bphoto/DVtHi2SmHSiNh8IFTuNjhg/o.jpg">
+                <!--    <img class="hide-on-small-only" id="facebookMainTop" src="https://s3-media2.fl.yelpcdn.com/bphoto/DVtHi2SmHSiNh8IFTuNjhg/o.jpg">-->
 
-                </div>
+                <!--</div>-->
             </div>
             <div class="col l1"></div>
             <!--------------------- column ----------------------------->
-            <div id="scrollHere" class="col l6 s11 white-text center">
-                    <div class="row">
-                        <p>We offer honest and reliable body repair, and we like to think we do it right. Whether it’s our quick, quality, friendly service or the honesty and value we bring to every interaction, our customers love us.</p>
+            <div id="scrollHere" class="col l6 m12  white-text center">
+                <div class="row hide-on-small-only" id="overView">
+
+
+                    <div class="subSection col m4 l4">
+                        <div class="row">
+                            <div class="row">
+                                <img class="icon" src="./images/repairIcon.png">
+                            </div>
+                            <div class="row">
+                                <h3 class="subTitle">Body Repairs</h3>
+
+
+                                <p class="subParagraph">From cracks in the windshield to total losses, we can help you find the car you love again.</p>
+                            </div>
+                        </div>
                     </div>
-                <div class="cardArea">
-                    <ul id="tabs" class="tabs black darken-2 center">
-                        <li class="tab col l4 s4"><a class="active" href="#test-swipe-1">Our Team</a></li>
-                        <li class="tab col l4 s4"><a href="#test-swipe-2">Body Repairs</a></li>
-                        <li class="tab col l4 s4"><a href="#test-swipe-3">Detail Services</a></li>
-                    </ul>
-                    <div id="test-swipe-1" class="col l12 black"><br>
-                        <img class="tabImg" src="http://nebula.wsimg.com/0129e814993c183e00e813bd1c3e3f68?AccessKeyId=152DEC5E485F94B21B67&disposition=0&alloworigin=1"><br>
-                        <h4 class="white-text">Looking for a body man you can trust? Look no further! We’re the most friendly, honest body repair team in the area. </h4>
+
+                    <div class="subSection col m4 l4">
+                        <div class="row">
+                            <div class="row">
+                                <img class="icon" src="./images/buffIcon.png">
+                            </div>
+                            <div class="row">
+                                <h3 class="subTitle">Detail Services</h3>
+
+                                <p class="subParagraph">Every car we have on our lot gets a great deal of polish and buff before we let it go, so you can rest assured your vehicle will be spotless.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div id="test-swipe-2" class="col l12 black"><br>
-                        <img class="tabImg" src="http://nebula.wsimg.com/c7990b51ca196fc27795e60c0aed61d9?AccessKeyId=152DEC5E485F94B21B67&disposition=0&alloworigin=1"><br>
-                        <h4 class="white-text">
-                            From cracks in the windshield to total losses, we can help you find the car you love again.</h4>
+
+                    <div class="subSection col m4 l4">
+                        <div class="row">
+                            <div class="row">
+                                <img class="icon" src="./images/teamIcon.png">
+                            </div>
+                            <div class="row">
+                                <h3 class="subTitle">Our<br> Team</h3>
+                                <p class="subParagraph">Our technicians are highly skilled and have years of experience. Most of all: they love cars and care about yours. </div>
+                        </div>
                     </div>
-                    <div id="test-swipe-3" class="col l12 black white-text"><br>
-                        <img class="tabImg" src="http://nebula.wsimg.com/f03d54e784a3d039b812f3531a253872?AccessKeyId=152DEC5E485F94B21B67&disposition=0&alloworigin=1"><br>
-                        <h4 class="white-text">
-                            Every car we have on our lot gets a great deal of polish and buff before we let it go, so you can rest assured your vehicle will be spotless.
-                        </h4>
-                    </div>
+
                 </div>
+                
+             <!--phone services carousel-->
+        <!--<div class="row hide-on-med-and-up">-->
+            <!--<div class="row center">-->
+                     
+        <!--                <div class="carousel carousel-slider center">-->
+                           
+        <!--                    <div class="carousel-item grey darken-4 white-text" href="#one!">-->
+        <!--                       <div class="row whyStuff">-->
+        <!--                            <div class="row">-->
+                                        
+        <!--                                     <img class="icon" src="./images/repairIcon.png">-->
+        <!--                                </div>-->
+        <!--                                <div class="row">-->
+        <!--                                      <h3 class="subTitle">Body Repairs</h3>-->
+                                    <!--    </div>-->
+                                   
+                                    <!--<div class="row">-->
+        <!--                                 <p class="subParagraph">From cracks in the windshield to total losses, we can help you find the car you love again.</p>-->
+        <!--                            </div>-->
+        <!--                       </div>-->
+        <!--                    </div>-->
+                           
+        <!--                    <div class="carousel-item grey darken-4 white-text" href="#three!">-->
+        <!--                        <div class="row whyStuff">-->
+        <!--                            <div class="row">-->
+                                       
+        <!--                                       <img class="icon" src="./images/buffIcon.png">-->
+        <!--                                </div>-->
+        <!--                                <div class="row">-->
+        <!--                                       <h3 class="subTitle">Detail Services</h3>-->
+                                    <!--    </div>-->
+                                   
+                                    <!--<div class="row">-->
+        <!--                                 <p class="subParagraph">Every car we have on our lot gets a great deal of polish and buff before we let it go, so you can rest assured your vehicle will be spotless.</p>-->
+        <!--                            </div>-->
+        <!--                       </div>-->
+        <!--                    </div>-->
+        <!--                    <div class="carousel-item grey darken-4 white-text" href="#four!">-->
+        <!--                       <div class="row whyStuff">-->
+        <!--                            <div class="row">-->
+                                       
+        <!--                                       <img class="icon" src="./images/teamIcon.png">-->
+        <!--                                </div>-->
+        <!--                                <div class="row">-->
+        <!--                                    <h3 class="subTitle">Our Team</h3>-->
+
+                                    <!--    </div>-->
+                                    
+                                    <!--<div class="row">-->
+        <!--                                  <p class="subParagraph">Our technicians are highly skilled and have years of experience. Most of all: they love cars and care about yours. </div>-->
+        <!--                            </div>-->
+        <!--                       </div>-->
+        <!--                    </div>-->
+                           
+                            
+                        <!--</div>-->
+        <!--                </div>-->
+        <!--end mobile carousel-->
+
+
+
             </div>
         </div>
         <!--<div class="col l6 s11">-->
         <div class="row">
+                 
             <div class="card grey darken-4 white-text servicesCard">
                 <div class="card-content">
                     <div class="card-title">
-                       
+
                     </div>
                     <div class="row">
-                        <div class="col l9">
-                             <h3 class="center" id="servicesMain">OUR SERVICES</h3>
-                    <h5 class="center">Our experienced body technicians will keep your vehicle in top condition. We use the latest technology to provide high-quality service and quick turnaround. Our technicians are highly skilled and have years of experience. Most of all:
-                        they love cars and care about yours.</h5>
-                    <div class="row">
-                        
-                        <div class="col l3 m6 s12">
-                            <ul class="browser-default">
-                                <li>Windshield Repair</li>
-                                <li>Complete Quality Control</li>
-                                 <li>Rental Agreements</li>
-                               
+                        <div class="col l9 m7">
+                            <h3 class="center" id="servicesMain">OUR SERVICES</h3>
+                            
+                            <h5 class="center hide-on-med-and-down">Our experienced body technicians will keep your vehicle in top condition. We use the latest technology to provide high-quality service and quick turnaround. Our technicians are highly skilled and have years of experience. Most
+                                of all: they love cars and care about yours.</h5>
+                            <p class="center hide-on-large-only">Our experienced body technicians will keep your vehicle in top condition. We use the latest technology to provide high-quality service and quick turnaround. Our technicians are highly skilled and have years of experience. Most
+                                of all: they love cars and care about yours.</p>
                                 
-                            </ul>
+                            <div class="row">
+
+                                <div class="col l3 m3 s12">
+                                    <ul class="browser-default">
+                                        <li>Windshield Repair</li>
+                                        <li>Complete Quality Control</li>
+                                        <li>Rental Agreements</li>
+
+
+                                    </ul>
+                                </div>
+                                <div class="col l3 m3 s12">
+                                    <ul class="browser-default">
+                                        <li>Rough Estimates</li>
+                                        <li>Customer Transport</li>
+                                        <li>Contact Throughout Repair</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col l3 m3 s12">
+                                    <ul class="browser-default">
+                                        <li>Friendly Customer Care</li>
+                                        <li>Quick Delivery</li>
+                                        <li>Dent Removal</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col l3 m3 s12">
+                                    <ul class="browser-default">
+
+                                        <li>Detail Work</li>
+                                        <li>Complete Itemized Estimate</li>
+                                        <li>Touch Ups</li>
+                                    </ul>
+                                </div>
+                            </div>
+                              <!--phone services carousel-->
+        <div class="row hide-on-med-and-up">
+            <!--<div class="row center">-->
+                     
+                        <div class="carousel carousel-slider center">
+                           
+                            <div class="carousel-item grey darken-4 white-text" href="#one!">
+                               <div class="row whyStuff">
+                                    <div class="row">
+                                        
+                                             <img class="icon" src="./images/repairIcon.png">
+                                        </div>
+                                        <div class="row">
+                                              <h3 class="subTitle">Body Repairs</h3>
+                                    <!--    </div>-->
+                                   
+                                    <!--<div class="row">-->
+                                         <p class="subParagraph">From cracks in the windshield to total losses, we can help you find the car you love again.</p>
+                                    </div>
+                               </div>
+                            </div>
+                           
+                            <div class="carousel-item grey darken-4 white-text" href="#three!">
+                                <div class="row whyStuff">
+                                    <div class="row">
+                                       
+                                               <img class="icon" src="./images/buffIcon.png">
+                                        </div>
+                                        <div class="row">
+                                               <h3 class="subTitle">Detail Services</h3>
+                                    <!--    </div>-->
+                                   
+                                    <!--<div class="row">-->
+                                         <p class="subParagraph">Every car we have on our lot gets a great deal of polish and buff before we let it go, so you can rest assured your vehicle will be spotless.</p>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="carousel-item grey darken-4 white-text" href="#four!">
+                               <div class="row whyStuff">
+                                    <div class="row">
+                                       
+                                               <img class="icon" src="./images/teamIcon.png">
+                                        </div>
+                                        <div class="row">
+                                            <h3 class="subTitle">Our Team</h3>
+
+                                    <!--    </div>-->
+                                    
+                                    <!--<div class="row">-->
+                                          <p class="subParagraph">Our technicians are highly skilled and have years of experience. Most of all: they love cars and care about yours. </div>
+                                    </div>
+                               </div>
+                            </div>
+                           
+                            
+                        <!--</div>-->
                         </div>
-                        <div class="col l3 m6 s12">
-                            <ul class="browser-default">
-                                <li>Rough Estimates</li>
-                                <li>Customer Transport</li>
-                                <li>Contact Throughout Repair</li>
-                               
-                            </ul>
+        <!--end mobile carousel-->
+
                         </div>
-                        <div class="col l3 m6 s12">
-                            <ul class="browser-default">
-                                <li>Friendly Customer Care</li>
-                                <li>Quick Delivery</li>
-                                 <li>Dent Removal</li>
-                              
-                            </ul>
-                        </div>
-                        <div class="col l3 m6 s12">
-                            <ul class="browser-default">
-                                
-                                   <li>Detail Work</li>
-                                    <li>Complete Itemized Estimate</li>
-                                    <li>Touch Ups</li>
-                            </ul>
-                        </div>
+                        <div class="col l3 m5 s12">
+                            <div class="card red darken-2" id="warrantyCard">
+                                <div class="card-content">
+                                    <h4>LIFETIME WARRANTY!</h4>
+                                    <p>We are so sure of our work that we guarantee our repairs for as long as you own the vehicle.
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <img class="hide-on-large-only hide-on-small-only" id="facebookMain" src="http://www.rbnroofing.com/wp-content/uploads/2015/09/BBB-logo-new-3.png">
                         </div>
                     </div>
-                    <div class="col l3 m12 s12">
-                        <div class="card red darken-2" id="warrantyCard">
-                            <div class="card-content">
-                        <h4>LIFETIME WARRANTY!</h4>
-                        <p>We are so sure of our work that we guarantee our repairs for as long as you own the vehicle. 
-                        </p>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                     <div class="row">
+            <div class="col l4 s1"></div>
+            <div class="col l4 s10 center">
+
+                <img class="hide-on-med-and-up center" id="facebookMain" src="http://www.rbnroofing.com/wp-content/uploads/2015/09/BBB-logo-new-3.png">
+
+            </div>
+            <div class="col l4 s1"></div>
+
+        </div>
                 </div>
             </div>
+        
         </div>
-        <!--</div>-->
+        
+        
+      
     </main>
 
     <!--need to put facebook and links down here-->
-    <footer class="page-footer black hide-on-med-and-up">
-        <div class="row">
-            <div class="col l4 s1"></div>
-            <div class="col l4 s10 center">
-                
-                    <img class="hide-on-med-and-up center" id="facebookMain" src="http://www.rbnroofing.com/wp-content/uploads/2015/09/BBB-logo-new-3.png">
-                   
-            </div>
-            <div class="col l4 s1"></div>
+    <!--<footer class="page-footer black hide-on-med-and-up">-->
+    <!--    <div class="row">-->
+    <!--        <div class="col l4 s1"></div>-->
+    <!--        <div class="col l4 s10 center">-->
 
-        </div>
-    </footer>
+    <!--            <img class="hide-on-med-and-up center" id="facebookMain" src="http://www.rbnroofing.com/wp-content/uploads/2015/09/BBB-logo-new-3.png">-->
+
+    <!--        </div>-->
+    <!--        <div class="col l4 s1"></div>-->
+
+    <!--    </div>-->
+    <!--</footer>-->
     <div class="row center hide-on-large-only">
         <a href="#pageTop" class="btn-floating btn-large waves-effect waves-light red darken-2"><i class="material-icons">arrow_upward</i></a>
     </div>
@@ -302,6 +462,8 @@
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
             $('ul.tabs').tabs('select_tab', 'tab_id');
+          $('.carousel').carousel();
+        //   $('.carousel.carousel-slider').carousel({fullWidth: true});
         });
     </script>
     <script src="./js/main.js"></script>

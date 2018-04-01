@@ -526,12 +526,18 @@ footer {
     /*margin-left: -5%;*/
 }
 
-    .carousel {
-        margin-left: 0%;
-        width: 360px;
-        height: 300px;
+    .carousel, .carousel-slider {
+        margin-left: -5%;
+        width: 350px;
+        height: 240px;
         padding: 1%;
         margin-bottom: 0%;
+    }
+    
+    .carousel-item{
+        width: 350px;
+        height: 200px;
+        margin-left: 0%;;
     }
     
     .item {
@@ -669,5 +675,15 @@ footer {
 
 #warrantyCard {
     margin-top: 0%;
+}
+
+.icon {
+    margin-top: 25%;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+
 }
 }
