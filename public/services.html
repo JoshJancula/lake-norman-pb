@@ -16,33 +16,33 @@
     <main>
  <div class="section scrollspy" id="pageTop"></div>
         <!--header-->
-        <div class="row">
-            <a href="#" data-activates="slide-out" class="right button-collapse hide-on-large-only"><i id="menuButton" class="red-text medium material-icons">menu</i></a>
-            <div class="col l7  s10 white-text">
+        <div class="row" id="header">
+            <div class="section scrollspy" id="pageTop"></div>
+            <a href="#" data-activates="slide-out" class="right button-collapse hide-on-large-only"><i id="menuButton" class="medium material-icons red-text">menu</i></a>
+            <div class="col l7 s10 white-text">
                 <!--<img class="brand-logo" id="topLogo" src="images/logo.png"></a><br>-->
                 <h3 id="topLogo">Lake Norman Paint and Body</h3>
             </div>
-            
+
             <div class="col l5">
-                <nav class="black">
-                    <div class="nav-wrapper">
+                
+                    <div class="nav-wrapper hide-on-med-and-down">
 
                         <!--<a href="#" data-activates="slide-out" class="button-collapse show-on-med-and-down"><i class="material-icons">menu</i></a>-->
 
-                        <ul id="nav-mobile" class="center hide-on-med-and-down">
-                            <li><a href="/index" id="index">Home</a></li>
-                            <li><a href="/about"  id="about">About Us</a></li>
-                            <li><a href="/services" class="activeNav" id="services">Services</a></li>
-                            <li><a href="/contact" id="contact">Contact Us</a></li>
-                            <li><a href="/reviews" id="reviews">Reviews</a></li>
+                        <div class="row" id="nav-mobile" class="left hide-on-med-and-down center">
+                            <div class="col l2"><a href="/index" class="white-text" id="index">Home</a></div>
+                            <div class="col l2"><a href="/about" class="white-text" id="about">About Us</a></div>
+                            <div class="col l2"><a href="/services" class="activeNav" id="services">Services</a></div>
+                            <div class="col l2"><a href="/contact" class="white-text" id="contact">Contact</a></div>
+                            <div class="col l2"><a href="/reviews" class="white-text" id="reviews">Reviews</a></div>
 
-                        </ul>
+                        </div>
                     </div>
-                </nav>
+               
             </div>
 
         </div>
-
 
 
         <!--sideNav hidden on large scrrens-->
@@ -84,7 +84,7 @@
  <!--begin tabs area-->
         <div class="row">
             <div class="cardArea">
-                <ul id="tabs" class="tabs black darken-2 center">
+                <ul id="tabs" class="tabs black  center">
                     <li class="tab col l4 s4"><a href="#test-swipe-1">Bring It On</a></li>
                     <li class="tab col l4 s4"><a class="active" href="#test-swipe-2">The Works</a></li>
                     <li class="tab col l4 s4"><a href="#test-swipe-3">Loose Ends</a></li>
@@ -166,6 +166,11 @@
             $('.collapsible').collapsible();
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
+            autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 3500);
+}
 
         });
     </script>

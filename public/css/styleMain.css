@@ -13,6 +13,13 @@ html {
 
 }
 
+/*#header {*/
+/*    background-image: url("../images/backgroundTop.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: 275px;*/
+/*}*/
+
 #servicesMain {
     color: red;
     /*color: #0E5DA4;*/
@@ -685,5 +692,9 @@ footer {
     border-radius: 50%;
     padding: 10px;
 
+}
+
+.servicesCard {
+    margin-top: -15%;
 }
 }

@@ -14,9 +14,10 @@
 <body>
     <header></header>
     <main>
-        <div class="section scrollspy" id="pageTop"></div>
+        
         <!--header-->
         <div class="row" id="header">
+            <div class="section scrollspy" id="pageTop"></div>
             <a href="#" data-activates="slide-out" class="right button-collapse hide-on-large-only"><i id="menuButton" class="medium material-icons red-text">menu</i></a>
             <div class="col l7 s10 white-text">
                 <!--<img class="brand-logo" id="topLogo" src="images/logo.png"></a><br>-->
@@ -29,11 +30,11 @@
 
                         <!--<a href="#" data-activates="slide-out" class="button-collapse show-on-med-and-down"><i class="material-icons">menu</i></a>-->
 
-                        <div class="row" id="nav-mobile" class="left hide-on-med-and-down">
+                        <div class="row" id="nav-mobile" class="left hide-on-med-and-down center">
                             <div class="col l2"><a href="/index" class="activeNav" id="index">Home</a></div>
                             <div class="col l2"><a href="/about" class="white-text" id="about">About Us</a></div>
                             <div class="col l2"><a href="/services" class="white-text" id="services">Services</a></div>
-                            <div class="col l3"><a href="/contact" class="white-text" id="contact">Contact Us</a></div>
+                            <div class="col l2"><a href="/contact" class="white-text" id="contact">Contact</a></div>
                             <div class="col l2"><a href="/reviews" class="white-text" id="reviews">Reviews</a></div>
 
                         </div>
@@ -180,9 +181,9 @@
 
                 <!--</div>-->
             </div>
-            <div class="col l1"></div>
+            <!--<div class="col l1"></div>-->
             <!--------------------- column ----------------------------->
-            <div id="scrollHere" class="col l6 m12  white-text center">
+            <div id="scrollHere" class="col l7 m12  white-text center">
                 <div class="row hide-on-small-only" id="overView">
 
 
@@ -404,7 +405,12 @@
                         </div>
                         <div class="col l3 m5 s12">
                             <div class="card red darken-2" id="warrantyCard">
-                                <div class="card-content">
+                                <div class="card-content hide-on-small-only">
+                                    <h4>LIFETIME WARRANTY!</h4>
+                                    <p>We are so sure of our work that we guarantee our repairs for as long as you own the vehicle.
+                                    </p>
+                                </div>
+                                  <div class="card-content hide-on-med-and up center">
                                     <h4>LIFETIME WARRANTY!</h4>
                                     <p>We are so sure of our work that we guarantee our repairs for as long as you own the vehicle.
                                     </p>
@@ -463,7 +469,11 @@
             $('.scrollspy').scrollSpy();
             $('ul.tabs').tabs('select_tab', 'tab_id');
           $('.carousel').carousel();
-        //   $('.carousel.carousel-slider').carousel({fullWidth: true});
+       autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
         });
     </script>
     <script src="./js/main.js"></script>
